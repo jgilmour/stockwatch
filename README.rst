@@ -3,15 +3,15 @@ StockWatch
 ======
 
 Analyze a set list of stocks for the following information:
-- Posts Today (The # of posts on InvestorsHub for the Stock's message board)
-- Followers (The # of followers on InvestorsHub for the Stock's message board)
-- Change (The change in price for the stock from profitspi)
-- %Change (The % change in price for the stock from profitspi)
-- 5 Day Avg Volume (The 5 Day Average volume from profitspi)
-- 10 Day Avg Volume (The 10 Day Average volume from profitspi)
-- Todays Volume (Todays Volume from profitspi) 
-- Todays Volume x 5 Day Avg Volume (Comparison of todays volume x 5 day avg)
-- Todays Volume x 10 Day Avg Volume (Comparison of todays volume x 10day avg)
+* Posts Today (The # of posts on InvestorsHub for the Stock's message board)
+* Followers (The # of followers on InvestorsHub for the Stock's message board)
+* Change (The change in price for the stock from profitspi)
+* %Change (The % change in price for the stock from profitspi)
+* 5 Day Avg Volume (The 5 Day Average volume from profitspi)
+* 10 Day Avg Volume (The 10 Day Average volume from profitspi)
+* Todays Volume (Todays Volume from profitspi) 
+* Todays Volume x 5 Day Avg Volume (Comparison of todays volume x 5 day avg)
+* Todays Volume x 10 Day Avg Volume (Comparison of todays volume x 10day avg)
 
 The output is sent to a seperate .csv for each stock symbol.
 
@@ -22,9 +22,9 @@ Requirements
 
 * Perl
 * Perl Modules:
-** WWW::Mechanize
-** HTTP::Cookies
-** HTML::TreeBuilder
+*  WWW::Mechanize
+*  HTTP::Cookies
+*  HTML::TreeBuilder
 
 Installation
 ============
