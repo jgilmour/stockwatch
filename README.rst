@@ -88,13 +88,15 @@ As you can see if this script is setup in a cron job, and run multiple times dur
 Todo
 ----
 
-  - Make CSV use commas instead of tabs 
-   - It was originally done this way, because volume data has comma's in it already, which was later removed
   - Have ability to export
    - Google Spreadsheet
    - XLS Format
    - HTML Table format
   - Add in Time/Date fields for rows
+
+Done
+----
+  - Changed '\t' delimiters to ',' for true CSV - 10/15/2010
 
 ScreenShots
 -----------
