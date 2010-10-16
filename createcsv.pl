@@ -11,7 +11,7 @@ my $fiveDayAvg = $ARGV[6];
 my $times5DayAvg = $ARGV[7];
 my $times10DayAvg = $ARGV[8];
 my $todayVol = $ARGV[9];
-my $header = "SYMBL\tPOSTS\tFOLLOWS\tCHG\t%CHG\tVol\t10DAvg\t5DAvg\txX5DAvg\txX10DAvg\n"; 
+my $header = "SYMBL,POSTS,FOLLOWERS,CHANGE,%CHANGE,Vol,10DAvgVol,5DAvgVol,TodayVS5DAvgVol,TodayVS10DAvgVol\n"; 
 
 $readfile="./csv/$stockSymbol.csv";
 if ( (-e $readfile) && (-r $readfile) ) {}
@@ -22,14 +22,14 @@ else {
 }
 
 open FILE, ">>./csv/$stockSymbol.csv";
- print FILE $stockSymbol . "\t";
- print FILE $postsToday . "\t";
- print FILE $followers . "\t";
- print FILE $priceChange . "\t";
- print FILE $percentChange . "\t";
- print FILE $todayVol . "\t";
- print FILE $tenDayAvg . "\t";
- print FILE $fiveDayAvg . "\t";
- print FILE $times5DayAvg . "\t";
- print FILE $times10DayAvg . "\t\n";
+ print FILE $stockSymbol . ",";
+ print FILE $postsToday . ",";
+ print FILE $followers . ",";
+ print FILE $priceChange . ",";
+ print FILE $percentChange . ",";
+ print FILE $todayVol . ",";
+ print FILE $tenDayAvg . ",";
+ print FILE $fiveDayAvg . ",";
+ print FILE $times5DayAvg . ",";
+ print FILE $times10DayAvg . ",\n";
 close FILE;
