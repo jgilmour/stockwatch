@@ -71,9 +71,9 @@ A folder will have been created called **csv**, when you look in this folder you
 
 If we look through the files, we see the following:
 
-cat ./csv/AAPL.csv  
-SYMBL   POSTS   FOLLOWS CHG     %CHG    Vol     10DAvg  5DAvg   xX5DAvg xX10DAvg  
-AAPL    4       261     8.18    2.71%   23002074        18447800        19299181        1.1     1.2
+`cat ./csv/AAPL.csv`  
+`SYMBL   POSTS   FOLLOWS CHG     %CHG    Vol     10DAvg  5DAvg   xX5DAvg xX10DAvg`  
+`AAPL    4       261     8.18    2.71%   23002074        18447800        19299181        1.1     1.2`  
 
 `cat ./csv/GOOG.csv`  
 `SYMBL   POSTS   FOLLOWS CHG     %CHG    Vol     10DAvg  5DAvg   xX5DAvg xX10DAvg`  
